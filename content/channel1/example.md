@@ -9,7 +9,7 @@ This wiki page is stored in <code>content/channel1/example.md</code>.
 
 To make a new page in <code>content/channel1</code>,
 simply copy this page 
-to a new file (e.g., "my-new-page.md"):
+to  new file (e.g., "my-new-page.md"):
 <code>content/channel1/my-new-page.md</code>
 
 Edit your new page as you see fit. 
