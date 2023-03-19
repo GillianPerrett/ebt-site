@@ -102,6 +102,22 @@ label {
   font-style: italic;
   flex: 1 1 50%;
 }
+.ebt-text-ref {
+  max-width: var(--ebt-text-width);
+  font-family: var(--ebt-sc-serif-font);
+  font-size: 95%;
+  padding-bottom: 0.7em;
+  padding-left: 0.7em;
+  flex: 1 1 50%;
+}
+.ebt-text-english {
+  max-width: var(--ebt-text-width);
+  font-family: var(--ebt-sc-serif-font);
+  font-size: 95%;
+  padding-bottom: 0.7em;
+  padding-left: 0.7em;
+  flex: 1 1 50%;
+}
 .ebt-text-trans {
   max-width: var(--ebt-text-width);
   font-family: var(--ebt-sans-font);
@@ -279,7 +295,12 @@ summary:focus {
     color: #888;
     margin-top: 0.6em;
     margin-left: 0.2em;
-    flex: 1 1 10em;
+    padding-right: 0.5em;
+    flex: 1 1;
+    min-width: 8em;
+}
+.ebt-scid:hover {
+  color: var(--ebt-color-light);
 }
 .ebt-sutta {
   margin-top: 2em;
@@ -586,6 +607,13 @@ pre,
 blockquote {
   border-left: 3pt solid #ccc;
   padding-left: 0.5em;
+}
+.theme--light.v-application kbd {
+  background: #212529ba !important;
+}
+li {
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
 }
 
 @media(width < 600px) {
